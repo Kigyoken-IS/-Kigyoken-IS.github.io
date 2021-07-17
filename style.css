@@ -1,12 +1,14 @@
 body {
     margin: 0;
     padding: 0;
+    color: #586069
 }
 
 header {
     display: flex;
-    height: 72px;
-    background-color: #fff;
+    height: 60px;
+    color: #fff;
+    background-color: #24292e;
     position: fixed;
     left: 0;
     right: 0;
@@ -24,25 +26,26 @@ header h2 {
 
 main {
     width: 100%;
-    background: linear-gradient(180deg,
-        #faa78c 0%,
-        #faa78c 610px,
-        #ffd9cc 100px,
-        #ffd9cc 100%);
-    padding-top: 112px; /* 72 + 40 */
+    background-color: #fff;
+    padding-top: 100px; /* 60 + 40 */
     padding-bottom: 40px;
 }
 .container {
-    width: 60%;
+    width: 80%;
     min-height: 1200px;
-    background: #fff;
-    border-radius: 16px;
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
     margin: 0 auto;
-    padding: 40px;
+    padding: 24px;
 }
 
 footer {
     display: block;
-    background: #FFF;
-    padding: 40px 0 80px;
+    padding: 0 40px;
+}
+.footer-content {
+    border-top: 1px solid #e1e4e8;
+    padding: 30px 0 40px;
+    text-align: center;
+    font-size: 12px;
 }
